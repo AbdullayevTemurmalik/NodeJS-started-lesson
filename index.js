@@ -10,8 +10,32 @@
 
 const userData = require("./user");
 const carData = require("./car");
-const schoolData = require("./school");
-const dostlarData = require("./dostlar");
+// const schoolData = require("./school");
+// const dostlarData = require("./dostlar");
+
+// console.log(schoolData.school);
+// schoolData.schoolLogger();
+
+// console.log(schoolData.school1);
+// schoolData.schoolLogger();
+
+// console.log(schoolData.school2);
+// schoolData.schoolLogger();
+
+// console.log(schoolData.school3);
+// schoolData.schoolLogger();
+
+// console.log(dostlarData.dost);
+// dostlarData.dostLogger();
+
+// console.log(dostlarData.dost1);
+// dostlarData.dostLogger();
+
+// console.log(dostlarData.dost2);
+// dostlarData.dostLogger();
+
+// console.log(dostlarData.dost3);
+// dostlarData.dostLogger();
 
 console.log(userData.user);
 userData.userLogger();
@@ -36,27 +60,3 @@ carData.car2Logger();
 
 console.log(carData.car3);
 carData.car3Logger();
-
-console.log(schoolData.school);
-schoolData.schoolLogger();
-
-console.log(schoolData.school1);
-schoolData.schoolLogger();
-
-console.log(schoolData.school2);
-schoolData.schoolLogger();
-
-console.log(schoolData.school3);
-schoolData.schoolLogger();
-
-console.log(dostlarData.dost);
-dostlarData.dostLogger();
-
-console.log(dostlarData.dost1);
-dostlarData.dostLogger();
-
-console.log(dostlarData.dost2);
-dostlarData.dostLogger();
-
-console.log(dostlarData.dost3);
-dostlarData.dostLogger();
