@@ -2,7 +2,6 @@ const dost = { name: "Isohon" };
 const dost1 = { name: "Abdulloh" };
 const dost2 = { name: "Muhammadamin" };
 const dost3 = { name: "Abdulaziz" };
-
 const dostLogger = () => console.log("yaqin dostim meni boringa shukur");
 const dostLogger1 = () => console.log("yaqin dostim meni boringa shukur");
 const dostLogger2 = () => console.log("yaqin dostim meni boringa shukur");
