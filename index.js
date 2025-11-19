@@ -11,6 +11,7 @@
 const userData = require("./user");
 const carData = require("./car");
 const schoolData = require("./school");
+const dostlarData = require("./dostlar");
 
 console.log(userData.user);
 userData.userLogger();
@@ -20,6 +21,9 @@ userData.user1Logger();
 
 console.log(userData.user2);
 userData.user1Logger();
+
+console.log(userData.user3);
+userData.user3Logger();
 
 console.log(carData.car);
 carData.carLogger();
@@ -41,3 +45,18 @@ schoolData.schoolLogger();
 
 console.log(schoolData.school2);
 schoolData.schoolLogger();
+
+console.log(schoolData.school3);
+schoolData.schoolLogger();
+
+console.log(dostlarData.dost);
+dostlarData.dostLogger();
+
+console.log(dostlarData.dost1);
+dostlarData.dostLogger();
+
+console.log(dostlarData.dost2);
+dostlarData.dostLogger();
+
+console.log(dostlarData.dost3);
+dostlarData.dostLogger();
