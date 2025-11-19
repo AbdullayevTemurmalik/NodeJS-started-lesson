@@ -8,8 +8,6 @@
 
 // console.log("Hello World");
 
-const userData = require("./user");
-const carData = require("./car");
 // const schoolData = require("./school");
 // const dostlarData = require("./dostlar");
 
@@ -36,6 +34,9 @@ const carData = require("./car");
 
 // console.log(dostlarData.dost3);
 // dostlarData.dostLogger();
+
+const userData = require("./user");
+const carData = require("./car");
 
 console.log(userData.user);
 userData.userLogger();
