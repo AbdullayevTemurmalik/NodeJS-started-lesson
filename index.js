@@ -10,9 +10,17 @@
 
 const userData = require("./user");
 const carData = require("./car");
+const schoolData = require("./school");
 
 console.log(userData.user);
 userData.userLogger();
 
 console.log(carData);
 carData.carLogger();
+
+console.log(userData.user1);
+userData.user1Logger();
+
+console.log(carData.car1);
+carData.car1Logger();
+
