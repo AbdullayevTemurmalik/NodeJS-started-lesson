@@ -15,12 +15,29 @@ const schoolData = require("./school");
 console.log(userData.user);
 userData.userLogger();
 
-console.log(carData);
-carData.carLogger();
-
 console.log(userData.user1);
 userData.user1Logger();
+
+console.log(userData.user2);
+userData.user1Logger();
+
+console.log(carData.car);
+carData.carLogger();
 
 console.log(carData.car1);
 carData.car1Logger();
 
+console.log(carData.car2);
+carData.car2Logger();
+
+console.log(carData.car3);
+carData.car3Logger();
+
+console.log(schoolData.school);
+schoolData.schoolLogger();
+
+console.log(schoolData.school1);
+schoolData.schoolLogger();
+
+console.log(schoolData.school2);
+schoolData.schoolLogger();
